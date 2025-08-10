@@ -1,0 +1,942 @@
+{
+  "title": "Gauges Check Sheet - IMS",
+  "header": {
+    "line1": "JINDAL STEEL & POWER LIMITED, RAIGARH",
+    "line2": "SHIFT CHECK SHEET FOR GAUGES",
+    "line3": "DEPARTMENT: PLATE MILL"
+  },
+  "formFields": [
+    {
+      "label": "Select Date",
+      "type": "date",
+      "id": "date",
+      "name": "date",
+      "required": true
+    },
+    {
+      "label": "Select Shift",
+      "type": "select",
+      "id": "shift",
+      "name": "shift",
+      "required": true,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "label": "Technician Name",
+      "type": "select",
+      "id": "technician",
+      "name": "technician",
+      "required": true,
+      "options": [
+      
+      ]
+    },
+    {
+      "label": "Shift Incharge Name",
+      "type": "select",
+      "id": "incharge",
+      "name": "incharge",
+      "required": true,
+      "options": [
+      
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "X Ray Profile Gauge -- IMS",
+      "subHeaders": [
+        "S/N",
+        "UNIT/PARAMETER",
+        "Check Points / Healthy Conditions",
+        "Status",
+        "Remark"
+      ],
+      "header_id": 1, "items": [
+        {
+          "sno": 1,
+          "unit": "C Frame",
+          "checkpoint": "Temperature< 50 DegC",
+          "line_id": 1, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][1][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_1_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][1][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_1_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "unit": "Inlet Water",
+          "checkpoint": "Temperature< 32 DegC",
+          "line_id": 2, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][2][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_2_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][2][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_2_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "unit": "Inlet Water",
+          "checkpoint": "Flow> 60 LPM",
+          "line_id": 3, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][3][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_3_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][3][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_3_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 4,
+          "unit": "Air Spray",
+          "checkpoint": "Flow> 130 m3/Hr",
+          "line_id": 4, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][4][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_4_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][4][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_4_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 5,
+          "unit": "Water Spray",
+          "checkpoint": "Flow> 10 LPM",
+          "line_id": 5, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][5][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_5_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][5][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_5_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 6,
+          "unit": "Air Dryer 1",
+          "checkpoint": "Ind Lamps",
+          "line_id": 6, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][6][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_6_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][6][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_6_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 7,
+          "unit": "Air Dryer 2",
+          "checkpoint": "Ind Lamps",
+          "line_id": 7, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][7][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_7_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][7][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_7_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 8,
+          "unit": "Utility Panel",
+          "checkpoint": "Clean/Doors shut",
+          "line_id": 8, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][8][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_8_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][8][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_8_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 9,
+          "unit": "Room AC",
+          "checkpoint": "Working/Clean",
+          "line_id": 9, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][9][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_9_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][9][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_9_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 10,
+          "unit": "Main Panel",
+          "checkpoint": "Clean/Doors shut",
+          "line_id": 10, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][10][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_10_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][10][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_10_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 11,
+          "unit": "Local Control Box",
+          "checkpoint": "Clean/Doors shut",
+          "line_id": 11, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][11][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_11_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][11][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_11_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 12,
+          "unit": "Indication Lamps",
+          "checkpoint": "Clean/Glowing",
+          "line_id": 12, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][12][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_12_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][12][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_12_rem1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Flatness Gauge -- IMS",
+      "subHeaders": [
+        "S/N",
+        "UNIT/PARAMETER",
+        "Check Points / Healthy Conditions",
+        "Status",
+        "Remark"
+      ],
+      "header_id": 2, "items": [
+        {
+          "sno": 1,
+          "unit": "Camera 1",
+          "checkpoint": "Temperature< 40 DegC",
+          "line_id": 1, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][1][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_1_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][1][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_1_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "unit": "Camera 2",
+          "checkpoint": "Temperature< 40 DegC",
+          "line_id": 2, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][2][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_2_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][2][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_2_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "unit": "Projector 1",
+          "checkpoint": "Temperature< 40 DegC",
+          "line_id": 3, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][3][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_3_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][3][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_3_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 4,
+          "unit": "Projector 2",
+          "checkpoint": "Temperature< 40 DegC",
+          "line_id": 4, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][4][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_4_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][4][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_4_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 5,
+          "unit": "Camera 1",
+          "checkpoint": "Air FlowOK",
+          "line_id": 5, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][5][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_5_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][5][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_5_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 6,
+          "unit": "Camera 2",
+          "checkpoint": "Air FlowOK",
+          "line_id": 6, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][6][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_6_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][6][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_6_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 7,
+          "unit": "Projector 1",
+          "checkpoint": "Air FlowOK",
+          "line_id": 7, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][7][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_7_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][7][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_7_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 8,
+          "unit": "Projector 2",
+          "checkpoint": "Air FlowOK",
+          "line_id": 8, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][8][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_8_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][8][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_8_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 9,
+          "unit": "Camera 1",
+          "checkpoint": "Water Temperature< 35 DegC",
+          "line_id": 9, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][9][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_9_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][9][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_9_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 10,
+          "unit": "Camera 2",
+          "checkpoint": "Water Temperature< 35 DegC",
+          "line_id": 10, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][10][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_10_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][10][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_10_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 11,
+          "unit": "Projector 1",
+          "checkpoint": "Water Temperature< 35 DegC",
+          "line_id": 11, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][11][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_11_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][11][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_11_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 12,
+          "unit": "Projector 2",
+          "checkpoint": "Water Temperature< 35 DegC",
+          "line_id": 12, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][12][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_12_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][12][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_12_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 13,
+          "unit": "Camera 1",
+          "checkpoint": "Water Flow> 7 LPM",
+          "line_id": 13, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][13][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_13_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][13][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_13_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 14,
+          "unit": "Camera 2",
+          "checkpoint": "Water Flow> 7 LPM",
+          "line_id": 14, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][14][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_14_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][14][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_14_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 15,
+          "unit": "Projector 1",
+          "checkpoint": "Water Flow> 7 LPM",
+          "line_id": 15, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][15][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_15_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][15][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_15_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 16,
+          "unit": "Projector 2",
+          "checkpoint": "Water Flow> 7 LPM",
+          "line_id": 16, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][16][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_16_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][16][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_16_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 17,
+          "unit": "Inlet Water",
+          "checkpoint": "Temperature< 32 DegC",
+          "line_id": 17, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][17][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_17_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][17][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_17_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 18,
+          "unit": "Inlet Water",
+          "checkpoint": "Flow> 60LPM",
+          "line_id": 18, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][18][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_18_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][18][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_18_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 19,
+          "unit": "Utility Panel",
+          "checkpoint": "Clean/Doors shut",
+          "line_id": 19, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][19][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_19_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][19][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_19_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 20,
+          "unit": "Blower",
+          "checkpoint": "Runing",
+          "line_id": 20, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][20][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_20_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][20][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_20_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 21,
+          "unit": "Main Panel",
+          "checkpoint": "Clean/Doors shut",
+          "line_id": 21, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][21][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_21_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][21][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_21_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 22,
+          "unit": "Local Junction Box",
+          "checkpoint": "Clean/Doors shut",
+          "line_id": 22, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][22][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "2_22_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][22][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_22_rem1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "statusCheckbox": {
+    "type": "checkbox",
+    "name": "statusCheckbox",
+    "id": "statusCheckbox"
+  },
+  "statusRemark": {
+    "type": "text",
+    "name": "statusRemark",
+    "id": "statusRemark",
+    "class": "input-field yellow",
+    "placeholder": "Reason for N.A. / Global Remark"
+  },
+  "finalRemark": {
+    "sno": "Any other Observation / Remark",
+    "textareaName": "items[2][multiline1]", "color": "purple",
+    "id": "2_multiline1" }
+}

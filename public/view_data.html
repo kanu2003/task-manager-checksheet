@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Submitted Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add/Adjust styles for filters to ensure single row layout */
+        .filters {
+            display: flex;
+            flex-wrap: wrap; /* Allows items to wrap if screen is too small, but tries to keep them in one row */
+            gap: 15px; /* Reduced gap for a more compact look */
+            justify-content: flex-start; /* Align items to the start */
+            align-items: flex-end; /* Align items at the bottom */
+        }
+
+        .filters label {
+            display: flex;
+            flex-direction: column;
+            white-space: nowrap; /* Prevent labels from wrapping */
+            font-size: 14px; /* Slightly smaller font for filters */
+        }
+
+        .filters input[type="date"],
+        .filters select {
+            padding: 8px; /* Reduced padding for input/select */
+            font-size: 14px; /* Consistent font size */
+            min-width: 120px; /* Adjust min-width as needed */
+            max-width: 150px; /* Max width to keep inputs from getting too wide */
+        }
+
+        .filters button {
+            padding: 8px 15px; /* Adjusted button padding */
+            font-size: 14px; /* Consistent font size */
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 1200px) {
+            .filters {
+                justify-content: center; /* Center filters on smaller screens */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .filters {
+                flex-direction: column; /* Stack filters vertically on very small screens */
+                align-items: stretch; /* Stretch items to fill width */
+            }
+            .filters input[type="date"],
+            .filters select,
+            .filters button {
+                width: 100%; /* Full width for inputs on small screens */
+                max-width: none; /* Remove max-width constraint */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>View Submitted Forms</h2>
+
+        <div class="filters">
+            <label>
+                Date From:
+                <input type="date" id="filterDateFrom">
+            </label>
+            <label>
+                Date To:
+                <input type="date" id="filterDateTo">
+            </label>
+            <label>
+                Shift:
+                <select id="filterShift">
+                    <option value="">All</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="G">G</option>
+                </select>
+            </label>
+            <label>
+                Technician:
+                <select id="filterTechnician">
+                    <option value="">All</option>
+                    <option value="Tech1">Tech1</option>
+                    <option value="Tech2">Tech2</option>
+                    <option value="Tech3">Tech3</option>
+                </select>
+            </label>
+            <label>
+                Shift Incharge:
+                <select id="filterIncharge">
+                    <option value="">All</option>
+                    <option value="Aonkit">Aonkit</option>
+                    <option value="Aomrit">Aomrit</option>
+                    <option value="Aoush">Aoush</option>
+                </select>
+            </label>
+            <label>
+                Form Type:
+                <select id="filterFormType">
+                    <option value="">All</option>
+                    <option value="1">ECR, Tunnels & Basements Check Sheet</option>
+                    <option value="2">FM Main Drive Check Sheet</option>
+                    <option value="3">Gauge Check Sheet</option>
+                    <option value="4">Instrumentation Check Sheet</option>
+                    <option value="5">Motors Check Sheet</option>
+                    <option value="6">Shift Check Sheet</option>
+                    <option value="7">Roll Change B Check Sheet</option>
+                </select>
+            </label>
+            <label>
+                Approval Status:
+                <select id="filterApprovalStatus">
+                    <option value="">All</option>
+                    <option value="YES">Approved</option>
+                    <option value="NO">Not Approved</option>
+                </select>
+            </label>
+             <label>
+                Filled Status:
+                <select id="filterFilledStatus">
+                    <option value="">All</option>
+                    <option value="YES">Filled</option>
+                    <option value="NO">Not Filled</option>
+                </select>
+            </label>
+            <button id="searchButton">Search</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Submission ID</th>
+                    <th>Date</th>
+                    <th>Shift</th>
+                    <th>Technician</th>
+                    <th>Shift Incharge</th>
+                    <th>Form Type</th>
+                    <th>Approval Status</th>
+                    <th>Filled Status</th>
+                    <th>Overall Remark</th>
+                    <th>Approver Remark</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="submissionsTableBody">
+                </tbody>
+        </table>
+    </div>
+
+    <script>
+        // No need for a token, we rely on the session cookie
+        // Remove the authToken variable and related message listener.
+        // window.addEventListener('message', (event) => { ... });
+        // async function validateTokenAndFetch() { ... }
+
+        function requestLogin() {
+          if (window.parent && window.parent.showApprovalLoginModal) {
+            window.parent.showApprovalLoginModal('/view_data.html');
+          }
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const filterDateFrom = document.getElementById('filterDateFrom');
+            const filterDateTo = document.getElementById('filterDateTo');
+            const filterShift = document.getElementById('filterShift');
+            const filterTechnician = document.getElementById('filterTechnician');
+            const filterIncharge = document.getElementById('filterIncharge');
+            const filterFormType = document.getElementById('filterFormType');
+            const filterApprovalStatus = document.getElementById('filterApprovalStatus');
+            const filterFilledStatus = document.getElementById('filterFilledStatus');
+            const searchButton = document.getElementById('searchButton');
+            const submissionsTableBody = document.getElementById('submissionsTableBody');
+
+            // Function to fetch and display submissions
+            async function fetchSubmissions() {
+                const queryParams = new URLSearchParams();
+                if (filterDateFrom.value) queryParams.append('dateFrom', filterDateFrom.value);
+                if (filterDateTo.value) queryParams.append('dateTo', filterDateTo.value);
+                if (filterShift.value) queryParams.append('shift', filterShift.value);
+                if (filterTechnician.value) queryParams.append('technician', filterTechnician.value);
+                if (filterIncharge.value) queryParams.append('incharge', filterIncharge.value);
+                if (filterFormType.value) queryParams.append('formId', filterFormType.value);
+                if (filterApprovalStatus.value) queryParams.append('approvalStatus', filterApprovalStatus.value);
+                if (filterFilledStatus.value) queryParams.append('filledStatus', filterFilledStatus.value);
+
+                try {
+                    console.log('view_data.html: Fetching submissions with params:', queryParams.toString());
+                    // The server's requireLogin middleware will protect this endpoint
+                    const response = await fetch(`/api/public-submissions?${queryParams.toString()}`);
+
+
+                    if (!response.ok) {
+                        const errorText = await response.text();
+                        console.error('view_data.html: Error response from /api/submissions:', errorText);
+                        
+                        // If it's a 401 Unauthorized, trigger the parent login modal
+                        if (response.status === 401) {
+                            alert("Session expired or unauthorized. Please log in again.");
+                            requestLogin(); // Use the dedicated requestLogin function
+                            return; 
+                        }
+                        throw new Error(`HTTP error! status: ${response.status} - ${errorText}`);
+                    }
+                    const submissions = await response.json();
+                    console.log('view_data.html: Submissions fetched successfully:', submissions);
+                    displaySubmissions(submissions);
+                } catch (error) {
+                    console.error('view_data.html: Error fetching submissions:', error);
+                    alert('Failed to load submissions. Please try again.');
+                }
+            }
+
+            // Function to dynamically display submissions in the table
+            function displaySubmissions(submissions) {
+                submissionsTableBody.innerHTML = ''; // Clear existing rows
+                if (submissions.length === 0) {
+                    submissionsTableBody.innerHTML = '<tr><td colspan="11">No submissions found.</td></tr>'; // Adjusted colspan
+                    return;
+                }
+
+                submissions.forEach(submission => {
+                    const row = submissionsTableBody.insertRow();
+                    row.insertCell().textContent = submission.submission_id;
+                    row.insertCell().textContent = new Date(submission.date).toLocaleDateString('en-GB'); // Format date
+                    row.insertCell().textContent = submission.shift;
+                    row.insertCell().textContent = submission.technician_ic;
+                    row.insertCell().textContent = submission.shift_ic;
+                    row.insertCell().textContent = submission.form_name; // Display readable form name
+                    row.insertCell().textContent = submission.approval_status;
+                    row.insertCell().textContent = submission.filled_status;
+                    row.insertCell().textContent = submission.overall_remark || 'N/A'; // Display overall remark
+                    row.insertCell().textContent = submission.approver_remark || 'N/A';
+
+                    const actionCell = row.insertCell();
+                    const viewButton = document.createElement('button');
+                    viewButton.textContent = 'View';
+                    viewButton.className = 'view-btn';
+                    
+                    const formFolderMapClient = {
+                        1: 'form1', // Map form_id from DB to URL param for folder routing
+                        2: 'form2',
+                        3: 'form3',
+                        4: 'form4',
+                        5: 'form5',
+                        6: 'form6',
+                        7: 'form7'
+                    };
+                    const formIdentifier = formFolderMapClient[submission.form_id];
+
+                    if (formIdentifier) {
+                       const isApprovalView = !window.location.search.includes('disableApproval=true');
+                       let viewUrl = `/${formIdentifier}/index.html?id=${submission.submission_id}&view=true`;
+                       if (!isApprovalView) {
+                           viewUrl += '&disableApproval=true';
+                       }
+                        
+                        viewButton.onclick = () => {
+                            console.log('view_data.html: Clicking View button. Attempting to load URL in parent iframe:', viewUrl);
+                            if (window.parent && window.parent.loadContentInIframe) {
+                                window.parent.loadContentInIframe(viewUrl, null, true); 
+                            } else {
+                                console.warn('view_data.html: Parent loadContentInIframe not found, opening in current window/tab:', viewUrl);
+                                window.location.href = viewUrl;
+                            }
+                        };
+                    } else {
+                        viewButton.disabled = true;
+                        viewButton.textContent = 'N/A';
+                        console.warn('view_data.html: No form identifier found for form_id:', submission.form_id);
+                    }
+                    actionCell.appendChild(viewButton);
+                });
+            }
+
+            // Attach event listener to the search button
+            searchButton.addEventListener('click', fetchSubmissions);
+
+            // Initial load of all submissions when the page loads
+            fetchSubmissions();
+        });
+    </script>
+</body>
+</html>

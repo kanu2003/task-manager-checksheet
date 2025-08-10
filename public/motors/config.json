@@ -1,0 +1,3611 @@
+{
+  "title": "Motors Check Sheet",
+  "header": {
+    "line1": "JINDAL STEEL & POWER LIMITED, RAIGARH",
+    "line2": "SHIFT CHECK SHEET FOR MOTORS",
+    "line3": "DEPARTMENT: PLATE MILL"
+  },
+  "formFields": [
+    {
+      "label": "Select Date",
+      "type": "date",
+      "id": "date",
+      "name": "date",
+      "required": true
+    },
+    {
+      "label": "Select Shift",
+      "type": "select",
+      "id": "shift",
+      "name": "shift",
+      "required": true,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "label": "Technician Name",
+      "type": "select",
+      "id": "technician",
+      "name": "technician",
+      "required": true,
+      "options": [
+       
+      ]
+    },
+    {
+      "label": "Shift Incharge Name",
+      "type": "select",
+      "id": "incharge",
+      "name": "incharge",
+      "required": true,
+      "options": [
+       
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "RM & VE Main Motor",
+      "header_id": 1, "subHeaders": [
+        "S/N",
+        "Location",
+        "Check Point",
+        "Alarm / Overheat",
+        "Door / Lighting",
+        "Remarks"
+      ],
+      "items": [
+        {
+          "sno": 1,
+          "line_id": 1, "unit": "RM bottom main motor bearing temp (CE) CH1",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][1][drop1]",
+              "id": "1_1_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][1][drop2]",
+              "id": "1_1_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][1][rem1]",
+              "id": "1_1_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "line_id": 2, "unit": "RM bottom main motor bearing temp (NDE) CH2",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][2][drop1]",
+              "id": "1_2_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][2][drop2]",
+              "id": "1_2_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][2][rem1]",
+              "id": "1_2_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "line_id": 3, "unit": "RM bottom main motor bearing temp (Jack shaft) CH3",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][3][drop1]",
+              "id": "1_3_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][3][drop2]",
+              "id": "1_3_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][3][rem1]",
+              "id": "1_3_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 4,
+          "line_id": 4, "unit": "RM Top main motor bearing (CE) CH4",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][4][drop1]",
+              "id": "1_4_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][4][drop2]",
+              "id": "1_4_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][4][rem1]",
+              "id": "1_4_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 5,
+          "line_id": 5, "unit": "RM Top main motor bearing temp (NDE) CH5",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][5][drop1]",
+              "id": "1_5_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][5][drop2]",
+              "id": "1_5_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][5][rem1]",
+              "id": "1_5_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 6,
+          "line_id": 6, "unit": "RM Bot main motor winding temp (wdg ckt) CH6",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][6][drop1]",
+              "id": "1_6_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][6][drop2]",
+              "id": "1_6_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][6][rem1]",
+              "id": "1_6_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 7,
+          "line_id": 7, "unit": "RM Top main motor winding temp (wdg ckt) CH7",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][7][drop1]",
+              "id": "1_7_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][7][drop2]",
+              "id": "1_7_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][7][rem1]",
+              "id": "1_7_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 8,
+          "line_id": 8, "unit": "RM Top motor encoder & coupling",
+          "checkpoint": "Coupling tightness",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][8][drop1]",
+              "id": "1_8_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][8][drop2]",
+              "id": "1_8_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][8][rem1]",
+              "id": "1_8_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 9,
+          "line_id": 9, "unit": "RM Top motor encoder & coupling",
+          "checkpoint": "Coupling tightness",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][9][drop1]",
+              "id": "1_9_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][9][drop2]",
+              "id": "1_9_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][9][rem1]",
+              "id": "1_9_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 10,
+          "line_id": 10, "unit": "RM Top Motor winding temperature with pyrometer",
+          "checkpoint": "Temperature (< 100 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][10][drop1]",
+              "id": "1_10_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][10][drop2]",
+              "id": "1_10_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][10][rem1]",
+              "id": "1_10_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 11,
+          "line_id": 11, "unit": "RM Bottom Motor winding temperature with pyrometer",
+          "checkpoint": "Temperature (< 100 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][11][drop1]",
+              "id": "1_11_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][11][drop2]",
+              "id": "1_11_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][11][rem1]",
+              "id": "1_11_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 12,
+          "line_id": 12, "unit": "RM Top Motor commutator",
+          "checkpoint": "No sparking",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][12][drop1]",
+              "id": "1_12_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][12][drop2]",
+              "id": "1_12_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][12][rem1]",
+              "id": "1_12_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 13,
+          "line_id": 13, "unit": "RM Bottom Motor commutator",
+          "checkpoint": "No sparking",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][13][drop1]",
+              "id": "1_13_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][13][drop2]",
+              "id": "1_13_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][13][rem1]",
+              "id": "1_13_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 14,
+          "line_id": 14, "unit": "RM Top Motor shaft grounding brush",
+          "checkpoint": "Physical Status",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][14][drop1]",
+              "id": "1_14_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][14][drop2]",
+              "id": "1_14_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][14][rem1]",
+              "id": "1_14_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 15,
+          "line_id": 15, "unit": "RM Bottom Motor shaft grounding brush",
+          "checkpoint": "Physical Status",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][15][drop1]",
+              "id": "1_15_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][15][drop2]",
+              "id": "1_15_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][15][rem1]",
+              "id": "1_15_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 16,
+          "line_id": 16, "unit": "VE DS motor",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][16][drop1]",
+              "id": "1_16_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][16][drop2]",
+              "id": "1_16_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][16][rem1]",
+              "id": "1_16_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 17,
+          "line_id": 17, "unit": "VE OS motor",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][17][drop1]",
+              "id": "1_17_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][17][drop2]",
+              "id": "1_17_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][17][rem1]",
+              "id": "1_17_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "RM Screw Down Motor",
+      "header_id": 2, "subHeaders": [
+        "S/N",
+        "Location",
+        "Check Point",
+        "Alarm / Overheat",
+        "Door / Lighting",
+        "Remarks"
+      ],
+      "items": [
+        {
+          "sno": 1,
+          "line_id": 1, "unit": "RM DS screw down motor",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][1][drop1]",
+              "id": "2_1_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[2][1][drop2]",
+              "id": "2_1_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[2][1][rem1]",
+              "id": "2_1_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "line_id": 2, "unit": "RM OS screw down motor",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][2][drop1]",
+              "id": "2_2_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[2][2][drop2]",
+              "id": "2_2_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[2][2][rem1]",
+              "id": "2_2_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "line_id": 3, "unit": "RM DS screw down motor absolute encoder, pulse encoder & coupling",
+          "checkpoint": "Coupling tightness",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][3][drop1]",
+              "id": "2_3_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[2][3][drop2]",
+              "id": "2_3_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[2][3][rem1]",
+              "id": "2_3_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 4,
+          "line_id": 4, "unit": "RM OS screw down motor absolute encoder, pulse encoder & coupling",
+          "checkpoint": "Coupling tightness",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[2][4][drop1]",
+              "id": "2_4_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[2][4][drop2]",
+              "id": "2_4_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[2][4][rem1]",
+              "id": "2_4_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FM Main Motor",
+      "header_id": 3, "subHeaders": [
+        "S/N",
+        "Location",
+        "Check Point",
+        "Alarm / Overheat",
+        "Door / Lighting",
+        "Remarks"
+      ],
+      "items": [
+        {
+          "sno": 1,
+          "line_id": 1, "unit": "FM Top motor encoder & coupling",
+          "checkpoint": "Coupling tightness",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][1][drop1]",
+              "id": "3_1_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][1][drop2]",
+              "id": "3_1_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][1][rem1]",
+              "id": "3_1_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "line_id": 2, "unit": "FM Bottom motor encoder & coupling",
+          "checkpoint": "Coupling tightness",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][2][drop1]",
+              "id": "3_2_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][2][drop2]",
+              "id": "3_2_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][2][rem1]",
+              "id": "3_2_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "line_id": 3, "unit": "FM Top Motor Slip ring",
+          "checkpoint": "No sparking",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][3][drop1]",
+              "id": "3_3_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][3][drop2]",
+              "id": "3_3_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][3][rem1]",
+              "id": "3_3_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 4,
+          "line_id": 4, "unit": "FM Bottom Motor Slip ring",
+          "checkpoint": "No sparking",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][4][drop1]",
+              "id": "3_4_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][4][drop2]",
+              "id": "3_4_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][4][rem1]",
+              "id": "3_4_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 5,
+          "line_id": 5, "unit": "FM Top Motor body temp",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][5][drop1]",
+              "id": "3_5_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][5][drop2]",
+              "id": "3_5_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][5][rem1]",
+              "id": "3_5_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 6,
+          "line_id": 6, "unit": "FM Bottom Motor body temp",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][6][drop1]",
+              "id": "3_6_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][6][drop2]",
+              "id": "3_6_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][6][rem1]",
+              "id": "3_6_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 7,
+          "line_id": 7, "unit": "FM Top Motor ventilation fans",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][7][drop1]",
+              "id": "3_7_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][7][drop2]",
+              "id": "3_7_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][7][rem1]",
+              "id": "3_7_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 8,
+          "line_id": 8, "unit": "FM Bottom Motor ventilation fans",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][8][drop1]",
+              "id": "3_8_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][8][drop2]",
+              "id": "3_8_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][8][rem1]",
+              "id": "3_8_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 9,
+          "line_id": 9, "unit": "FM Top Motor shaft grounding brush",
+          "checkpoint": "Physical Status",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][9][drop1]",
+              "id": "3_9_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][9][drop2]",
+              "id": "3_9_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][9][rem1]",
+              "id": "3_9_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 10,
+          "line_id": 10, "unit": "FM Bottom Motor shaft grounding brush",
+          "checkpoint": "Physical Status",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[3][10][drop1]",
+              "id": "3_10_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][10][drop2]",
+              "id": "3_10_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[3][10][rem1]",
+              "id": "3_10_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Steckel Coiler & Upcolier Motors",
+      "header_id": 4, "subHeaders": [
+        "S/N",
+        "Location",
+        "Check Point",
+        "Alarm / Overheat",
+        "Door / Lighting",
+        "Remarks"
+      ],
+      "items": [
+        {
+          "sno": 1,
+          "line_id": 1, "unit": "Entry Coiling Fce Motor Bearing Temp (DE)",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[4][1][drop1]",
+              "id": "4_1_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][1][drop2]",
+              "id": "4_1_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[4][1][rem1]",
+              "id": "4_1_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "line_id": 2, "unit": "Entry Coiling Fce Motor Bearing Temp (NDE)",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[4][2][drop1]",
+              "id": "4_2_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][2][drop2]",
+              "id": "4_2_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[4][2][rem1]",
+              "id": "4_2_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "line_id": 3, "unit": "Entry coiling furnace motor encoder coupling",
+          "checkpoint": "Coupling tightness",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[4][3][drop1]",
+              "id": "4_3_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][3][drop2]",
+              "id": "4_3_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[4][3][rem1]",
+              "id": "4_3_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 4,
+          "line_id": 4, "unit": "Exit Coiling Fce Motor Bearing Temp (DE)",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[4][4][drop1]",
+              "id": "4_4_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][4][drop2]",
+              "id": "4_4_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[4][4][rem1]",
+              "id": "4_4_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 5,
+          "line_id": 5, "unit": "Exit Coiling Fce Motor Bearing Temp (NDE)",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[4][5][drop1]",
+              "id": "4_5_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][5][drop2]",
+              "id": "4_5_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[4][5][rem1]",
+              "id": "4_5_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 6,
+          "line_id": 6, "unit": "Exit coiling furnace motor encoder coupling",
+          "checkpoint": "Coupling tightness",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[4][6][drop1]",
+              "id": "4_6_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][6][drop2]",
+              "id": "4_6_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[4][6][rem1]",
+              "id": "4_6_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 7,
+          "line_id": 7, "unit": "Upcolier front Motor",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[4][7][drop1]",
+              "id": "4_7_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][7][drop2]",
+              "id": "4_7_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[4][7][rem1]",
+              "id": "4_7_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 8,
+          "line_id": 8, "unit": "Upcolier back Motor",
+          "checkpoint": "Temperature (< 70 \u00b0C)",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[4][8][drop1]",
+              "id": "4_8_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][8][drop2]",
+              "id": "4_8_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[4][8][rem1]",
+              "id": "4_8_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 9,
+          "line_id": 9, "unit": "Upcoiler motor encoder coupling",
+          "checkpoint": "Coupling tightness",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[4][9][drop1]",
+              "id": "4_9_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][9][drop2]",
+              "id": "4_9_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[4][9][rem1]",
+              "id": "4_9_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Down Coiler Motors",
+      "header_id": 5, "subHeaders": [
+        "S/N",
+        "Location",
+        "Check Point",
+        "Alarm / Overheat",
+        "Door / Lighting",
+        "Remarks"
+      ],
+      "items": [
+        {
+          "sno": 1,
+          "line_id": 1, "unit": "Down Coiler top & bottom pinch roll Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[5][1][drop1]",
+              "id": "5_1_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][1][drop2]",
+              "id": "5_1_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[5][1][rem1]",
+              "id": "5_1_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "line_id": 2, "unit": "Down Coiler Wrapper roll motors 1.2 &3",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[5][2][drop1]",
+              "id": "5_2_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][2][drop2]",
+              "id": "5_2_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[5][2][rem1]",
+              "id": "5_2_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "line_id": 3, "unit": "Down Coiler Main Motor",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[5][3][drop1]",
+              "id": "5_3_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][3][drop2]",
+              "id": "5_3_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[5][3][rem1]",
+              "id": "5_3_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 4,
+          "line_id": 4, "unit": "Down Coiler Entry Feed roll Motor",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[5][4][drop1]",
+              "id": "5_4_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][4][drop2]",
+              "id": "5_4_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[5][4][rem1]",
+              "id": "5_4_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 5,
+          "line_id": 5, "unit": "Down Coiler Delivery Feed Roll Motor",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[5][5][drop1]",
+              "id": "5_5_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][5][drop2]",
+              "id": "5_5_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[5][5][rem1]",
+              "id": "5_5_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 6,
+          "line_id": 6, "unit": "Down Coiler Deflector Roll Motor",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[5][6][drop1]",
+              "id": "5_6_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][6][drop2]",
+              "id": "5_6_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[5][6][rem1]",
+              "id": "5_6_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 7,
+          "line_id": 7, "unit": "Down Coiler Rooster Roll Motor",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[5][7][drop1]",
+              "id": "5_7_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][7][drop2]",
+              "id": "5_7_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[5][7][rem1]",
+              "id": "5_7_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Aux. Roller Table Motors",
+      "header_id": 6, "subHeaders": [
+        "S/N",
+        "Location",
+        "Check Point",
+        "Alarm / Overheat",
+        "Door / Lighting",
+        "Remarks"
+      ],
+      "items": [
+        {
+          "sno": 1,
+          "line_id": 1, "unit": "Furnace charging Section Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][1][drop1]",
+              "id": "6_1_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][1][drop2]",
+              "id": "6_1_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][1][rem1]",
+              "id": "6_1_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "line_id": 2, "unit": "Furnace reject Table Motor",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][2][drop1]",
+              "id": "6_2_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][2][drop2]",
+              "id": "6_2_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][2][rem1]",
+              "id": "6_2_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "line_id": 3, "unit": "Furnace Discharging Section Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][3][drop1]",
+              "id": "6_3_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][3][drop2]",
+              "id": "6_3_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][3][rem1]",
+              "id": "6_3_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 4,
+          "line_id": 4, "unit": "De-scaler approach table section -1 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][4][drop1]",
+              "id": "6_4_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][4][drop2]",
+              "id": "6_4_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][4][rem1]",
+              "id": "6_4_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 5,
+          "line_id": 5, "unit": "De-scaler approach table section -2 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][5][drop1]",
+              "id": "6_5_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][5][drop2]",
+              "id": "6_5_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][5][rem1]",
+              "id": "6_5_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 6,
+          "line_id": 6, "unit": "RM Regular approach table sec-1 motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][6][drop1]",
+              "id": "6_6_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][6][drop2]",
+              "id": "6_6_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][6][rem1]",
+              "id": "6_6_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 7,
+          "line_id": 7, "unit": "RM Regular approach table sec-2 motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][7][drop1]",
+              "id": "6_7_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][7][drop2]",
+              "id": "6_7_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][7][rem1]",
+              "id": "6_7_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 8,
+          "line_id": 8, "unit": "RM Regular approach table sec-3 motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][8][drop1]",
+              "id": "6_8_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][8][drop2]",
+              "id": "6_8_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][8][rem1]",
+              "id": "6_8_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 9,
+          "line_id": 9, "unit": "RM Entry Taper 1 table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][9][drop1]",
+              "id": "6_9_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][9][drop2]",
+              "id": "6_9_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][9][rem1]",
+              "id": "6_9_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 10,
+          "line_id": 10, "unit": "RM Entry Taper 2 table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][10][drop1]",
+              "id": "6_10_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][10][drop2]",
+              "id": "6_10_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][10][rem1]",
+              "id": "6_10_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 11,
+          "line_id": 11, "unit": "RM Entry Straight Table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][11][drop1]",
+              "id": "6_11_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][11][drop2]",
+              "id": "6_11_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][11][rem1]",
+              "id": "6_11_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 12,
+          "line_id": 12, "unit": "VE Feed Roll Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][12][drop1]",
+              "id": "6_12_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][12][drop2]",
+              "id": "6_12_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][12][rem1]",
+              "id": "6_12_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 13,
+          "line_id": 13, "unit": "RM approach Table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][13][drop1]",
+              "id": "6_13_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][13][drop2]",
+              "id": "6_13_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][13][rem1]",
+              "id": "6_13_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 14,
+          "line_id": 14, "unit": "RM Entry feed roll motor",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][14][drop1]",
+              "id": "6_14_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][14][drop2]",
+              "id": "6_14_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][14][rem1]",
+              "id": "6_14_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 15,
+          "line_id": 15, "unit": "RM Exit feed roll motor",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][15][drop1]",
+              "id": "6_15_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][15][drop2]",
+              "id": "6_15_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][15][rem1]",
+              "id": "6_15_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 16,
+          "line_id": 16, "unit": "RM Exit Straight Table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][16][drop1]",
+              "id": "6_16_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][16][drop2]",
+              "id": "6_16_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][16][rem1]",
+              "id": "6_16_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 17,
+          "line_id": 17, "unit": "RM Exit Taper 2 table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][17][drop1]",
+              "id": "6_17_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][17][drop2]",
+              "id": "6_17_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][17][rem1]",
+              "id": "6_17_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 18,
+          "line_id": 18, "unit": "RM Exit Taper 1 table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][18][drop1]",
+              "id": "6_18_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][18][drop2]",
+              "id": "6_18_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][18][rem1]",
+              "id": "6_18_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 19,
+          "line_id": 19, "unit": "RM Run out Table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][19][drop1]",
+              "id": "6_19_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][19][drop2]",
+              "id": "6_19_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][19][rem1]",
+              "id": "6_19_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 20,
+          "line_id": 20, "unit": "RM Run out -1 Table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][20][drop1]",
+              "id": "6_20_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][20][drop2]",
+              "id": "6_20_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][20][rem1]",
+              "id": "6_20_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 21,
+          "line_id": 21, "unit": "RM Run out -2 Table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][21][drop1]",
+              "id": "6_21_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][21][drop2]",
+              "id": "6_21_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][21][rem1]",
+              "id": "6_21_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 22,
+          "line_id": 22, "unit": "FM Approach table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][22][drop1]",
+              "id": "6_22_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][22][drop2]",
+              "id": "6_22_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][22][rem1]",
+              "id": "6_22_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 23,
+          "line_id": 23, "unit": "FM Entry Table Section -1",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][23][drop1]",
+              "id": "6_23_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][23][drop2]",
+              "id": "6_23_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][23][rem1]",
+              "id": "6_23_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 24,
+          "line_id": 24, "unit": "FM Entry Table Section -2",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][24][drop1]",
+              "id": "6_24_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][24][drop2]",
+              "id": "6_24_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][24][rem1]",
+              "id": "6_24_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 25,
+          "line_id": 25, "unit": "FM Entry Table Section -3",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][25][drop1]",
+              "id": "6_25_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][25][drop2]",
+              "id": "6_25_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][25][rem1]",
+              "id": "6_25_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 26,
+          "line_id": 26, "unit": "FM Entry Feed Roll",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][26][drop1]",
+              "id": "6_26_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][26][drop2]",
+              "id": "6_26_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][26][rem1]",
+              "id": "6_26_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 27,
+          "line_id": 27, "unit": "FM Exit Feed Roll",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][27][drop1]",
+              "id": "6_27_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][27][drop2]",
+              "id": "6_27_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][27][rem1]",
+              "id": "6_27_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 28,
+          "line_id": 28, "unit": "FM Exit Table Section -1",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][28][drop1]",
+              "id": "6_28_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][28][drop2]",
+              "id": "6_28_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][28][rem1]",
+              "id": "6_28_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 29,
+          "line_id": 29, "unit": "FM Exit Table Section -2",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][29][drop1]",
+              "id": "6_29_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][29][drop2]",
+              "id": "6_29_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][29][rem1]",
+              "id": "6_29_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 30,
+          "line_id": 30, "unit": "FM Exit Table Section -3",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][30][drop1]",
+              "id": "6_30_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][30][drop2]",
+              "id": "6_30_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][30][rem1]",
+              "id": "6_30_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 31,
+          "line_id": 31, "unit": "FM Approach table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][31][drop1]",
+              "id": "6_31_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][31][drop2]",
+              "id": "6_31_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][31][rem1]",
+              "id": "6_31_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 32,
+          "line_id": 32, "unit": "FM Entry Top Pinch Roll",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][32][drop1]",
+              "id": "6_32_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][32][drop2]",
+              "id": "6_32_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][32][rem1]",
+              "id": "6_32_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 33,
+          "line_id": 33, "unit": "FM Entry Bottom Pinch Roll",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][33][drop1]",
+              "id": "6_33_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][33][drop2]",
+              "id": "6_33_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][33][rem1]",
+              "id": "6_33_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 34,
+          "line_id": 34, "unit": "FM Exit Top Pinch Roll",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][34][drop1]",
+              "id": "6_34_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][34][drop2]",
+              "id": "6_34_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][34][rem1]",
+              "id": "6_34_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 35,
+          "line_id": 35, "unit": "FM Exit Bottom Pinch Roll",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][35][drop1]",
+              "id": "6_35_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][35][drop2]",
+              "id": "6_35_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][35][rem1]",
+              "id": "6_35_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 36,
+          "line_id": 36, "unit": "ACC area RT -30 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][36][drop1]",
+              "id": "6_36_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][36][drop2]",
+              "id": "6_36_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][36][rem1]",
+              "id": "6_36_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 37,
+          "line_id": 37, "unit": "ACC area RT -31 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][37][drop1]",
+              "id": "6_37_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][37][drop2]",
+              "id": "6_37_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][37][rem1]",
+              "id": "6_37_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 38,
+          "line_id": 38, "unit": "ACC area RT -32 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][38][drop1]",
+              "id": "6_38_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][38][drop2]",
+              "id": "6_38_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][38][rem1]",
+              "id": "6_38_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 39,
+          "line_id": 39, "unit": "ACC area RT -33 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][39][drop1]",
+              "id": "6_39_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][39][drop2]",
+              "id": "6_39_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][39][rem1]",
+              "id": "6_39_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 40,
+          "line_id": 40, "unit": "ACC area RT -34 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][40][drop1]",
+              "id": "6_40_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][40][drop2]",
+              "id": "6_40_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][40][rem1]",
+              "id": "6_40_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 41,
+          "line_id": 41, "unit": "ACC area RT -35 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][41][drop1]",
+              "id": "6_41_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][41][drop2]",
+              "id": "6_41_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][41][rem1]",
+              "id": "6_41_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 42,
+          "line_id": 42, "unit": "ACC area RT -36 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][42][drop1]",
+              "id": "6_42_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][42][drop2]",
+              "id": "6_42_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][42][rem1]",
+              "id": "6_42_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 43,
+          "line_id": 43, "unit": "ACC area RT -37 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][43][drop1]",
+              "id": "6_43_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][43][drop2]",
+              "id": "6_43_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][43][rem1]",
+              "id": "6_43_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 44,
+          "line_id": 44, "unit": "UC approach Table Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][44][drop1]",
+              "id": "6_44_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][44][drop2]",
+              "id": "6_44_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][44][rem1]",
+              "id": "6_44_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 45,
+          "line_id": 45, "unit": "Upcoiler exit section motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][45][drop1]",
+              "id": "6_45_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][45][drop2]",
+              "id": "6_45_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][45][rem1]",
+              "id": "6_45_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 46,
+          "line_id": 46, "unit": "DC area RT -39 Motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][46][drop1]",
+              "id": "6_46_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][46][drop2]",
+              "id": "6_46_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][46][rem1]",
+              "id": "6_46_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 47,
+          "line_id": 47, "unit": "HPL Entry Roller table motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][47][drop1]",
+              "id": "6_47_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][47][drop2]",
+              "id": "6_47_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][47][rem1]",
+              "id": "6_47_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 48,
+          "line_id": 48, "unit": "HPL Exit Roller table motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][48][drop1]",
+              "id": "6_48_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][48][drop2]",
+              "id": "6_48_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][48][rem1]",
+              "id": "6_48_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 49,
+          "line_id": 49, "unit": "Divide shear entry section motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][49][drop1]",
+              "id": "6_49_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][49][drop2]",
+              "id": "6_49_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][49][rem1]",
+              "id": "6_49_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 50,
+          "line_id": 50, "unit": "Divide shear exit section motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][50][drop1]",
+              "id": "6_50_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][50][drop2]",
+              "id": "6_50_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][50][rem1]",
+              "id": "6_50_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 51,
+          "line_id": 51, "unit": "Transfer -2 section motors.",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][51][drop1]",
+              "id": "6_51_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][51][drop2]",
+              "id": "6_51_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][51][rem1]",
+              "id": "6_51_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 52,
+          "line_id": 52, "unit": "Transfer -3 section motors.",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][52][drop1]",
+              "id": "6_52_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][52][drop2]",
+              "id": "6_52_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][52][rem1]",
+              "id": "6_52_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 53,
+          "line_id": 53, "unit": "Rotary shear Entry section motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][53][drop1]",
+              "id": "6_53_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][53][drop2]",
+              "id": "6_53_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][53][rem1]",
+              "id": "6_53_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 54,
+          "line_id": 54, "unit": "Rotary shear Exit section motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][54][drop1]",
+              "id": "6_54_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][54][drop2]",
+              "id": "6_54_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][54][rem1]",
+              "id": "6_54_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 55,
+          "line_id": 55, "unit": "End shear Entry section motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][55][drop1]",
+              "id": "6_55_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][55][drop2]",
+              "id": "6_55_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][55][rem1]",
+              "id": "6_55_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 56,
+          "line_id": 56, "unit": "End shear exit section motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][56][drop1]",
+              "id": "6_56_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][56][drop2]",
+              "id": "6_56_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][56][rem1]",
+              "id": "6_56_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 57,
+          "line_id": 57, "unit": "Transfer -4 motors",
+          "checkpoint": "Temperature(<80 \u00b0C) & physical condition",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][57][drop1]",
+              "id": "6_57_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][57][drop2]",
+              "id": "6_57_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][57][rem1]",
+              "id": "6_57_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 58,
+          "line_id": 58, "unit": "Any other Observation / Remark",
+          "checkpoint": "",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][58][drop1]",
+              "id": "6_58_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][58][drop2]",
+              "id": "6_58_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[6][58][rem1]",
+              "id": "6_58_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalRemark": {
+    "sno": "Any other Observation / Remark",
+    "textareaName": "items[2][multiline1]", "color": "purple",
+    "id": "2_multiline1" },
+  "statusCheckbox": {
+    "type": "checkbox",
+    "name": "statusCheckbox",
+    "id": "statusCheckbox"
+  },
+  "statusRemark": {
+    "type": "text",
+    "name": "statusRemark",
+    "id": "statusRemark",
+    "class": "input-field yellow",
+    "placeholder": "Reason for N.A. / Global Remark"
+  }
+}

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ECR, Tunnels & Basements Checklist</title>
+    <style>
+    :root {
+        --primary-color: #003366; /* JSPL Blue */
+        --secondary-color: #28a745; /* Submit Button Green */
+        --light-blue-bg: #e6f2ff; /* Light blue for sections/background elements */
+        --dark-blue-text: #002244;
+        --text-color: #333;
+        --light-grey-bg: #f0f2f5;
+        --white: #ffffff;
+        --border-light: #e0e0e0;
+        --border-medium: #ccc;
+        --shadow-light: rgba(0, 0, 0, 0.05);
+        --shadow-medium: rgba(0, 0, 0, 0.1);
+
+        /* Specific input colors for consistency */
+        --color-blue-bg: #e0f2f7; /* Light Blue */
+        --color-green-bg: #e6ffe6; /* Light Green */
+        --color-yellow-bg: #fffacd; /* Lemon Chiffon (light yellow) */
+        --color-purple-bg: #e6e6fa; /* Lavender (light purple) */
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      background-color: var(--light-grey-bg);
+      line-height: 1.6;
+      color: var(--text-color);
+    }
+    .container {
+      max-width: 1200px;
+      margin: 30px auto; /* More margin top/bottom */
+      padding: 30px; /* More padding */
+      background: var(--white);
+      box-shadow: 0 6px 20px var(--shadow-medium); /* Stronger shadow */
+      border-radius: 12px; /* More rounded corners */
+    }
+    .header-lines {
+      text-align: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid var(--primary-color); /* Stronger separator */
+    }
+    .header-lines p {
+      margin: 5px 0;
+      font-family: 'Montserrat', sans-serif; /* Using a more modern font for headers */
+      font-size: 1.2em;
+      color: var(--dark-blue-text);
+    }
+    .header-lines p:first-child {
+      font-weight: 700; /* Bolder first line */
+      font-size: 1.5em;
+      color: var(--primary-color);
+    }
+    .header-lines p:last-child {
+      font-size: 1em;
+      color: #666;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Adjusted min-width for fields */
+      gap: 25px; /* More gap */
+      margin-bottom: 35px;
+      padding: 20px;
+      border: 1px solid var(--border-light);
+      border-radius: 10px; /* Rounded corners */
+      background-color: var(--light-blue-bg); /* Light background for the form area */
+      box-shadow: inset 0 2px 5px var(--shadow-light); /* Inner shadow for depth */
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      font-weight: 600; /* Bolder labels */
+      margin-bottom: 8px; /* More space */
+      color: var(--primary-color);
+      font-size: 0.95em;
+    }
+    input[type="date"],
+    select,
+    input[type="text"],
+    textarea {
+      padding: 12px; /* More padding */
+      border: 1px solid var(--border-medium);
+      border-radius: 6px; /* Slightly more rounded */
+      font-size: 1em;
+      width: 100%;
+      box-sizing: border-box;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    input[type="date"]:focus,
+    select:focus,
+    input[type="text"]:focus,
+    textarea:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 3px rgba(0, 51, 102, 0.2); /* Focus glow */
+        outline: none;
+    }
+    textarea {
+      min-height: 90px; /* Slightly taller */
+      resize: vertical;
+    }
+    
+    .section-table {
+      width: 100%;
+      border-collapse: separate; /* Use separate to allow border-radius on cells */
+      border-spacing: 0; /* Remove space between cells */
+      margin-top: 35px; /* More space above table */
+      margin-bottom: 35px;
+      box-shadow: 0 4px 15px var(--shadow-light); /* Shadow for the whole table */
+      border-radius: 10px; /* Rounded corners for the table */
+      overflow: hidden; /* Ensures rounded corners are visible */
+    }
+    /* ENHANCED CAPTION STYLES */
+    .section-table caption {
+      font-family: 'Montserrat', sans-serif; /* Consistent header font */
+      font-size: 1.8em; /* Significantly larger */
+      font-weight: 700; /* Extra bold */
+      text-align: left; /* Align to left */
+      margin-bottom: 15px; /* More space below caption */
+      color: var(--dark-blue-text); /* Darker blue for contrast */
+      padding: 15px 20px; /* More padding around text */
+      background: linear-gradient(to right, var(--light-blue-bg) 0%, rgba(255,255,255,0) 100%); /* Subtle gradient background for caption */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 4px 10px var(--shadow-light); /* Shadow for the caption */
+      text-transform: uppercase; /* Make it stand out */
+      letter-spacing: 1px; /* Add some spacing */
+    }
+    /* END ENHANCED CAPTION STYLES */
+
+    .section-table th, .section-table td {
+      border: 1px solid #e0e0e0; /* Lighter borders */
+      padding: 14px; /* More padding */
+      text-align: left;
+      vertical-align: middle; /* Align content vertically in middle */
+    }
+    .section-table th {
+      background-color: var(--primary-color);
+      color: var(--white);
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      position: sticky;
+      top: 0; /* Make headers sticky if table is scrollable */
+      z-index: 1; /* Ensure headers stay above content */
+    }
+    .section-table thead tr:first-child th:first-child { border-top-left-radius: 10px; }
+    .section-table thead tr:first-child th:last-child { border-top-right-radius: 10px; }
+
+    .section-table tr:nth-child(even) {
+      background-color: #f8fbfd; /* Very subtle alternate row color */
+    }
+    .section-table tr:hover {
+        background-color: #f0f7ff; /* Highlight row on hover */
+    }
+
+    /* Input field specific colors */
+    .input-field.blue { background-color: var(--color-blue-bg); }
+    .input-field.green { background-color: var(--color-green-bg); }
+    .input-field.yellow { background-color: var(--color-yellow-bg); }
+    .input-field.purple { 
+        background-color: var(--color-purple-bg); 
+        min-height: 80px; /* Default height for textarea */
+    }
+
+    /* New styles for the dedicated final remark area */
+    .final-remark-area { 
+        margin-top: 25px;
+        margin-bottom: 30px;
+        padding: 20px; /* More padding */
+        border: 1px solid var(--border-light);
+        border-radius: 10px;
+        background-color: var(--light-blue-bg);
+        box-shadow: inset 0 2px 5px var(--shadow-light);
+    }
+    .final-remark-area label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: var(--primary-color);
+        font-size: 1.05em;
+    }
+
+    /* Styles for the checkbox and remark group */
+    .checkbox-remark-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        padding: 20px;
+        border: 1px solid var(--border-light);
+        border-radius: 10px;
+        background-color: var(--light-blue-bg);
+        box-shadow: inset 0 2px 5px var(--shadow-light);
+    }
+
+    .checkbox-remark-group label {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        color: var(--primary-color);
+        font-size: 0.95em;
+    }
+
+    .checkbox-remark-group input[type="checkbox"] {
+        margin-right: 8px;
+        transform: scale(1.2);
+    }
+
+
+    .submit-button {
+      display: block;
+      width: 250px; /* Wider button */
+      padding: 15px; /* More padding */
+      margin: 40px auto 20px; /* More margin */
+      background-color: var(--secondary-color);
+      color: var(--white);
+      border: none;
+      border-radius: 8px; /* More rounded */
+      font-size: 1.2em; /* Larger text */
+      font-weight: 700;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+      letter-spacing: 0.5px;
+    }
+    .submit-button:hover {
+      background-color: #218838; /* Darker green on hover */
+      transform: translateY(-2px); /* Slight lift */
+      box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3); /* Green shadow */
+    }
+    .submit-button:active {
+        transform: translateY(0);
+        box-shadow: none;
+    }
+
+    /* Responsive Adjustments for Checklist Pages */
+    @media (max-width: 768px) {
+        .container {
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .header-lines {
+            margin-bottom: 20px;
+        }
+        .header-lines p:first-child {
+            font-size: 1.2em;
+        }
+        .header-lines p {
+            font-size: 0.9em;
+        }
+        .form-grid {
+            gap: 15px;
+            padding: 15px;
+            margin-bottom: 25px;
+        }
+        input[type="date"], select, input[type="text"], textarea {
+            padding: 10px;
+            font-size: 0.95em;
+        }
+        .section-table {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+        .section-table caption { /* Adjust caption size for smaller screens */
+            font-size: 1.4em;
+            padding: 10px 15px;
+        }
+        .section-table th, .section-table td {
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        .final-remark-area, .checkbox-remark-group {
+            margin-top: 20px;
+            margin-bottom: 25px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .submit-button {
+            width: 200px;
+            padding: 12px;
+            font-size: 1.1em;
+            margin: 30px auto 15px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header-lines">
+            <p id="headerLine1"></p>
+            <p id="headerLine2"></p>
+            <p id="headerLine3"></p>
+        </header>
+
+        <form id="checkSheetForm">
+            <div id="formFields" class="form-grid">
+            </div>
+
+            <div id="checklistSections">
+            </div>
+
+            <div class="checkbox-remark-group">
+                <label for="statusCheckbox">
+                    <input type="checkbox" id="statusCheckbox" name="statusCheckbox">
+                    Set all Remarks to N.A.
+                </label>
+                <input type="text" id="statusRemark" name="statusRemark" class="input-field yellow" placeholder="Reason for N.A. / Global Remark">
+            </div>
+            
+            <div class="text-center">
+                <button type="submit" class="submit-button">Submit</button>
+                <input type="text" id="approverRemark" name="approver_remark" class="input-field yellow" placeholder="Approver Remark" style="display: none;">
+                <button type="button" class="submit-button" id="approveButton" style="display:none; background-color: #007bff">Approve</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // The code should start directly here:
+            fetch('config.json')
+                .then(response => response.json())
+                .then(config => {
+                    // Set header lines
+                    document.getElementById('headerLine1').textContent = config.header.line1;
+                    document.getElementById('headerLine2').textContent = config.header.line2;
+                    document.getElementById('headerLine3').textContent = config.header.line3;
+                    document.title = config.title;
+
+                    // Build Form Fields
+                    const formFieldsContainer = document.getElementById('formFields');
+                    config.formFields.forEach(field => {
+                        const group = document.createElement('div');
+                        group.className = 'form-group';
+
+                        const label = document.createElement('label');
+                        label.setAttribute('for', field.id);
+                        label.textContent = field.label;
+                        group.appendChild(label);
+
+                        let input;
+                        if (field.type === 'select') {
+                            input = document.createElement('select');
+                            input.name = field.name;
+                            input.id = field.id;
+                            if (field.required) input.required = true;
+                            // Only add options if defined in config.json and not handled by shared_view_form_logic.js
+                            if (field.options && field.options.length > 0) { 
+                                field.options.forEach(optionText => {
+                                    const option = document.createElement('option');
+                                    option.value = optionText;
+                                    option.textContent = optionText;
+                                    input.appendChild(option);
+                                });
+                            } else {
+                                // Add a default "Select" option for dynamically populated dropdowns
+                                const defaultOption = document.createElement('option');
+                                defaultOption.value = "";
+                                defaultOption.textContent = "Select";
+                                input.appendChild(defaultOption);
+                            }
+                        } else {
+                            input = document.createElement('input');
+                            input.type = field.type;
+                            input.name = field.name;
+                            input.id = field.id;
+                            if (field.required) input.required = true;
+                        }
+                        group.appendChild(input);
+                        formFieldsContainer.appendChild(group);
+                    });
+
+                    // Build Checklist Sections and Tables
+                    const checklistSectionsContainer = document.getElementById('checklistSections');
+
+                    config.sections.forEach(section => {
+                        const sectionTable = document.createElement('table');
+                        sectionTable.className = 'section-table';
+
+                        const caption = document.createElement('caption');
+                        caption.textContent = section.title;
+                        sectionTable.appendChild(caption);
+
+                        const thead = document.createElement('thead');
+                        const headerRow = document.createElement('tr');
+                        section.subHeaders.forEach(headerText => {
+                            const th = document.createElement('th');
+                            th.textContent = headerText;
+                            headerRow.appendChild(th);
+                        });
+                        thead.appendChild(headerRow);
+                        sectionTable.appendChild(thead);
+
+                        const tbody = document.createElement('tbody');
+                        const headerId = section.header_id; // Use header_id from config
+                        section.items.forEach(item => {
+                            const row = document.createElement('tr');
+                            let rowHtml = `
+                                <td>${item.sno}</td>
+                                <td>${item.unit}</td>
+                                <td>${item.checkpoint}</td>
+                            `;
+                            item.fields.forEach(field => {
+                                let inputElement = '';
+                                let className = 'input-field ' + (field.color ? field.color : '');
+
+                                if (field.type === "dropdown") {
+                                    inputElement = `<select name="items[${headerId}][${item.line_id}][${field.id.split('_').pop()}]" id="${field.id}" class="${className}" required>`;
+                                    inputElement += `<option value="">--Select--</option>`;
+                                    field.options.forEach(option => {
+                                        inputElement += `<option value="${option}">${option}</option>`;
+                                    });
+                                    inputElement += `</select>`;
+                                } else if (field.type === "text") {
+                                    inputElement = `<input type="text" name="items[${headerId}][${item.line_id}][${field.id.split('_').pop()}]" id="${field.id}" class="${className}" placeholder="${field.placeholder}" />`;
+                                } else if (field.type === "textarea") {
+                                    inputElement = `<textarea name="items[${headerId}][${item.line_id}][${field.id.split('_').pop()}]" id="${field.id}" class="${className}" placeholder="${field.placeholder}"></textarea>`;
+                                }
+                                rowHtml += `<td>${inputElement}</td>`;
+                            });
+                            row.innerHTML = rowHtml;
+                            tbody.appendChild(row);
+                        });
+                        sectionTable.appendChild(tbody);
+                        checklistSectionsContainer.appendChild(sectionTable);
+                    });
+
+                    // Add the final "Any other Observation / Remark" row
+                    const finalRemarkDiv = document.createElement('div');
+                    finalRemarkDiv.className = 'final-remark-area';
+
+                    const finalRemarkLabel = document.createElement('label');
+                    finalRemarkLabel.textContent = config.finalRemark.sno;
+                    finalRemarkDiv.appendChild(finalRemarkLabel);
+
+                    const finalRemarkTextarea = document.createElement('textarea');
+                    finalRemarkTextarea.name = config.finalRemark.textareaName;
+                    finalRemarkTextarea.id = config.finalRemark.id;
+                    finalRemarkTextarea.className = `input-field ${config.finalRemark.color || ''}`;
+                    finalRemarkDiv.appendChild(finalRemarkTextarea);
+                    
+                    checklistSectionsContainer.appendChild(finalRemarkDiv);
+                    
+
+                    // --- JAVASCRIPT FOR DEFAULT "OK" SELECTION ---
+                    // Set default "OK" for all dropdowns
+                    document.querySelectorAll('.input-field.green').forEach(selectElement => {
+                        const okOption = Array.from(selectElement.options).find(option => option.value === 'OK');
+                        if (okOption) {
+                            selectElement.value = 'OK';
+                        }
+                    });
+                    // --- END JAVASCRIPT ---
+
+                    // --- JAVASCRIPT FOR "N.A." REMARKS CHECKBOX LOGIC ---
+                    const statusCheckbox = document.getElementById('statusCheckbox');
+                    const statusRemark = document.getElementById('statusRemark');
+
+                    statusCheckbox.addEventListener('change', function() {
+                        const remarkFields = document.querySelectorAll('.input-field.yellow, .input-field.purple'); // Select all yellow and purple remark fields
+                        
+                        remarkFields.forEach(field => {
+                            // Exclude the statusRemark field from being set to 'N.A.'
+                            if (field.id !== 'statusRemark') {
+                                if (this.checked) {
+                                    field.value = 'N.A.';
+                                    field.readOnly = true; // Make them read-only when N.A. is set
+                                    field.style.backgroundColor = 'var(--color-purple-bg)'; // Use CSS variable
+                                } else {
+                                    field.value = ''; // Clear the value
+                                    field.readOnly = false; // Make them editable again
+                                    // Restore original color if needed
+                                    if (field.classList.contains('yellow')) {
+                                        field.style.backgroundColor = 'var(--color-yellow-bg)';
+                                    } else if (field.classList.contains('purple')) {
+                                        field.style.backgroundColor = 'var(--color-purple-bg)';
+                                    }
+                                }
+                            }
+                        });
+
+                        // Handle the global remark field: ENABLE/DISABLE but DO NOT populate 'N.A.'
+                        if (this.checked) {
+                            statusRemark.disabled = false;
+                            statusRemark.focus(); // Focus on the global remark for input
+                        } else {
+                            statusRemark.value = ''; // Clear global remark if unchecked
+                            statusRemark.disabled = true; // Disable if unchecked
+                        }
+                    });
+
+                    // Initially disable the global remark field
+                    statusRemark.disabled = true;
+                    // --- END JAVASCRIPT ---
+
+
+                    // --- START: UPDATED FORM SUBMISSION LOGIC ---
+                    // Get the form ID from the current URL to use in the submit path
+                    const pathParts = window.location.pathname.split('/');
+                    const formIdForSubmit = pathParts[pathParts.indexOf('index.html') - 1]; // Extracts 'form2' from '/form2/index.html'
+
+                    document.getElementById('checkSheetForm').addEventListener('submit', async function(event) {
+                        event.preventDefault(); // Prevent the default browser form submission
+
+                        const formData = new FormData(this); // Collect all form data
+                        const data = {};
+                        for (const [key, value] of formData.entries()) {
+                            data[key] = value;
+                        }
+
+                        console.log("Frontend: Form data ready to send:", data); // Log data before sending
+
+                        try {
+                            const response = await fetch(`${window.location.origin}/submit/${formIdForSubmit}`, { // Use dynamic formIdForSubmit
+                                method: 'POST', // Always use POST for form submissions that modify data
+                                headers: {
+                                    'Content-Type': 'application/json' 
+                                },
+                                body: JSON.stringify(data) // Convert JavaScript object to a JSON string for the request body
+                            });
+
+                            const result = await response.json(); // Parse the JSON response from the server
+
+                            if (response.ok) { // Check if the HTTP status code is 2xx (success)
+                                alert('Success! Form submitted and saved to database. Insert ID: ' + result.submissionId);
+                                console.log('Server Response:', result);
+                                this.reset(); // Resets all form fields
+                                // Reset N.A. checkbox and remark field state after successful submission
+                                statusCheckbox.checked = false;
+                                statusRemark.value = '';
+                                statusRemark.disabled = true;
+                                document.querySelectorAll('.input-field.yellow, .input-field.purple').forEach(field => {
+                                    field.readOnly = false;
+                                    if (field.classList.contains('yellow')) {
+                                        field.style.backgroundColor = 'var(--color-yellow-bg)';
+                                    } else if (field.classList.contains('purple')) {
+                                        field.style.backgroundColor = 'var(--color-purple-bg)';
+                                    }
+                                });
+                                // Re-set "OK" for dropdowns after reset
+                                document.querySelectorAll('.input-field.green').forEach(selectElement => {
+                                    const okOption = Array.from(selectElement.options).find(option => option.value === 'OK');
+                                    if (okOption) {
+                                        selectElement.value = 'OK';
+                                    }
+                                });
+
+                            } else {
+                                // Handle server-side errors (e.g., 400, 500 status codes)
+                                const errorMessage = result.error || 'Unknown error occurred.';
+                                const errorDetails = result.details ? `\nDetails: ${result.details}` : '';
+                                const errorCode = result.code ? ` (Code: ${result.code})` : '';
+                                alert(`Error submitting form: ${errorMessage}${errorDetails}${errorCode}`);
+                                console.error('Server Error Response:', result);
+                            }
+                        } catch (error) {
+                            // Handle network errors or issues that prevent the request from reaching the server
+                            console.error('Frontend: Network or fetch API error:', error);
+                            alert('A network error occurred or the server is unreachable. Please check your connection.');
+                        }
+                    });
+                    // --- END: UPDATED FORM SUBMISSION LOGIC ---
+
+                })
+                .catch(error => console.error('Error fetching config:', error));
+            }); // This closes the document.addEventListener('DOMContentLoaded', () => { ... }); block.
+    </script>
+    <script src="./shared_view_form_logic.js"></script>
+</body>
+</html>

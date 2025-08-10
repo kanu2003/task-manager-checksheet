@@ -1,0 +1,1678 @@
+{
+  "title": "Shift Check Sheet - Plate Mill",
+  "header": {
+    "line1": "JINDAL STEEL & POWER LIMITED, RAIGARH",
+    "line2": "SHIFT CHECK SHEET FOR ROLL CHANGE",
+    "line3": "DEPARTMENT: PLATE MILL"
+  },
+  "formFields": [
+    {
+      "label": "Select Date",
+      "type": "date",
+      "id": "date",
+      "name": "date",
+      "required": true
+    },
+    {
+      "label": "Select Shift",
+      "type": "select",
+      "id": "shift",
+      "name": "shift",
+      "required": true,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "label": "Technician Name",
+      "type": "select",
+      "id": "technician",
+      "name": "technician",
+      "required": true,
+      "options": [
+       
+      ]
+    },
+    {
+      "label": "Shift Incharge Name",
+      "type": "select",
+      "id": "incharge",
+      "name": "incharge",
+      "required": true,
+      "options": [
+       
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "header_id": 1,"title": "Lubrication systems",
+      "subHeaders": [
+        "S/N",
+        "UNIT/PARAMETER",
+        "Check Points / Healthy Conditions",
+        "Pump no.",
+        "Sound",
+        "Remark"
+      ],
+      "items": [
+        {
+          "line_id": 1,"sno": 1,
+          "unit": "VE Circulating Lub",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[1][1][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "1_1_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][1][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_1_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][1][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_1_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 2, "sno": 2,
+          "unit": "2 Hi & 4 Hi Screwdown Lub",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[1][2][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "1_2_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][2][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_2_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][2][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_2_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 3,"sno": 3,
+          "unit": "2 Hi & 4Hi roll brg (MOS)",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[1][3][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "1_3_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][3][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_3_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][3][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_3_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 4,"sno": 4,
+          "unit": "2 Hi & 4Hi main motor brgs",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[1][4][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "1_4_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][4][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_4_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][4][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_4_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 5,"sno": 5,
+          "unit": "Table roll lub",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[1][5][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "1_5_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][5][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_5_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][5][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_5_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 6,"sno": 6,
+          "unit": "Coiling furnace entry/exit motor brgs",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[1][6][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "1_6_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][6][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_6_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][6][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_6_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 7,"sno": 7,
+          "unit": "Heavy leveller Lub",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[1][7][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "1_7_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][7][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_7_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][7][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_7_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 8,"sno": 8,
+          "unit": "Rotary Shear Lub",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[1][8][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "1_8_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][8][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_8_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][8][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_8_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 9,"sno": 9,
+          "unit": "End Shear Lub",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[1][9][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "1_9_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][9][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "1_9_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[1][9][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "1_9_rem1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header_id": 2,"title": "Desacler Room",
+      "subHeaders": [
+        "S/N",
+        "UNIT/PARAMETER",
+        "Check Points / Healthy Conditions",
+        "Pump no. / Sound",
+        "Heating / Pressure",
+        "Remark"
+      ],
+      "items": [
+        {
+          "line_id": 1,"sno": 1,
+          "unit": "HT Panel",
+          "checkpoint": "Alarms",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[2][1][text1]",
+              "placeholder": "Pump No. / Sound",
+              "color": "blue",
+              "id": "2_1_text1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][1][text2]",
+              "placeholder": "Heating / Pressure",
+              "color": "blue",
+              "id": "2_1_text2"
+            },
+            {
+              "type": "text",
+              "name": "items[2][1][text1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_1_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 2,"sno": 2,
+          "unit": "Softstarter panel",
+          "checkpoint": "Status",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[2][2][text1]",
+              "placeholder": "Pump No. / Sound",
+              "color": "blue",
+              "id": "2_2_text1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][2][text2]",
+              "placeholder": "Heating / Pressure",
+              "color": "blue",
+              "id": "2_2_text2"
+            },
+            {
+              "type": "text",
+              "name": "items[2][2][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_2_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 3,"sno": 3,
+          "unit": "Descaler pump motors",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[2][3][text1]",
+              "placeholder": "Pump No. / Sound",
+              "color": "blue",
+              "id": "2_3_text1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][3][text2]",
+              "placeholder": "Heating / Pressure",
+              "color": "blue",
+              "id": "2_3_text2"
+            },
+            {
+              "type": "text",
+              "name": "items[2][3][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_3_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 4,"sno": 4,
+          "unit": "Descaler lub system",
+          "checkpoint": "Running pump no. and pressure (>3bar)",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[2][4][text1]",
+              "placeholder": "Pump No. / Sound",
+              "color": "blue",
+              "id": "2_4_text1"
+            },
+            {
+              "type": "text",
+              "name": "items[2][4][text2]",
+              "placeholder": "Heating / Pressure",
+              "color": "blue",
+              "id": "2_4_text2"
+            },
+            {
+              "type": "text",
+              "name": "items[2][4][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "2_4_rem1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header_id": 3,"title": "DCW Area",
+      "subHeaders": [
+        "S/N",
+        "UNIT/PARAMETER",
+        "Check Points / Healthy Conditions",
+        "Pump no.",
+        "Sound",
+        "Remark"
+      ],
+      "items": [
+        {
+          "line_id": 1,"sno": 1,
+          "unit": "DCW pumps & Cold Well",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[3][1][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "3_1_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][1][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "3_1_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[3][1][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "3_1_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "unit": "Settling tank pumps & Tank",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[3][2][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "3_2_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][2][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "3_2_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[3][2][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "3_2_rem1"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "unit": "Backwash pumps",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[3][3][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "3_3_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[3][3][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "3_3_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[3][3][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "3_3_rem1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header_id": 4,"title": "ICW",
+      "subHeaders": [
+        "S/N",
+        "UNIT/PARAMETER",
+        "Check Points / Healthy Conditions",
+        "Pump no.",
+        "Sound",
+        "Remark"
+      ],
+      "items": [
+        {
+          "line_id": 1,"sno": 1,
+          "unit": "ICW FCE Pumps & Cold Well",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[4][1][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "4_1_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][1][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "4_1_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[4][1][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "4_1_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 2,"sno": 2,
+          "unit": "CW FCE 2nd Ckt Pumps & Cold Well",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[4][2][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "4_2_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][2][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "4_2_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[4][2][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "4_2_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 3,"sno": 3,
+          "unit": "ICW for other sys Pumps & Cold Well",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[4][3][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "4_3_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[4][3][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "4_3_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[4][3][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "4_3_rem1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header_id": 5,"title": "Hydraulic Systems",
+      "subHeaders": [
+        "S/N",
+        "UNIT/PARAMETER",
+        "Check Points / Healthy Conditions",
+        "Pump no.",
+        "Sound",
+        "Remark"
+      ],
+      "items": [
+        {
+          "line_id": 1,"sno": 1,
+          "unit": "Reheat FCE Hyd",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[5][1][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "5_1_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][1][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "5_1_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[5][1][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "5_1_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 2,"sno": 2,
+          "unit": "A75, Mill hyd",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[5][2][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "5_2_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][2][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "5_2_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[5][2][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "5_2_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 3,"sno": 3,
+          "unit": "A22 HAGC hyd",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[5][3][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "5_3_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][3][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "5_3_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[5][3][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "5_3_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 4,"sno": 4,
+          "unit": "F75 Upcoiler/Shear hyd",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[5][4][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "5_4_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][4][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "5_4_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[5][4][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "5_4_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 5,"sno": 5,
+          "unit": "Heavy leveller hyd",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[5][5][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "5_5_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][5][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "5_5_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[5][5][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "5_5_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 6,"sno": 6,
+          "unit": "End shear hyd",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[5][6][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "5_6_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][6][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "5_6_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[5][6][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "5_6_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 7,"sno": 7,
+          "unit": "Roll Balance hyd system",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[5][7][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "5_7_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][7][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "5_7_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[5][7][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "5_7_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 8,"sno": 8,
+          "unit": "Laminar Pump Room",
+          "checkpoint": "Running pump no. and sound.",
+          "fields": [
+            {
+              "type": "text",
+              "name": "items[5][8][text1]",
+              "placeholder": "Pump No.",
+              "color": "blue",
+              "id": "5_8_text1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[5][8][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "5_8_drop1"
+            },
+            {
+              "type": "text",
+              "name": "items[5][8][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "5_8_rem1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header_id": 6,"title": "Ventilation & Blower Systems",
+      "subHeaders": [
+        "S/N",
+        "UNIT/PARAMETER",
+        "Check Points / Healthy Conditions",
+        "Heating",
+        "Sound",
+        "Remark"
+      ],
+      "items": [
+        {
+          "line_id": 1,"sno": 1,
+          "unit": "RHF Combustion blower #1",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][1][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_1_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][1][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_1_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][1][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_1_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":2,"sno": 2,
+          "unit": "RHF Combustion blower #2",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][2][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_2_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][2][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_2_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][2][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_2_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":3,"sno": 3,
+          "unit": "RHF Dilution air blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][3][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_3_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][3][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_3_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][3][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_3_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":4,"sno": 4,
+          "unit": "RM Top motor",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][4][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_4_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][4][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_4_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][4][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_4_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":5,"sno": 5,
+          "unit": "RM Bottom Motor",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][5][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_5_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][5][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_5_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][5][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_5_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":6,"sno": 6,
+          "unit": "RM entry section",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][6][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_6_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][6][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_6_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][6][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_6_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":7,"sno": 7,
+          "unit": "RM Exit section",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][7][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_7_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][7][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_7_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][7][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_7_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":8, "sno": 8,
+          "unit": "Entry Coiling Fce Combustion Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][8][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_8_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][8][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_8_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][8][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_8_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":9, "sno": 9,
+          "unit": "Exit Coiling Fce Combustion Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][9][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_9_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][9][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_9_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][9][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_9_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":10, "sno": 10,
+          "unit": "Entry Coiling Fce Motor Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][10][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_10_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][10][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_10_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][10][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_10_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":11, "sno": 11,
+          "unit": "4HI Entry Aux Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][11][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_11_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][11][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_11_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][11][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_11_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":12, "sno": 12,
+          "unit": "4HI Top Motor Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][12][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_12_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][12][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_12_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][12][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_12_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":13, "sno": 13,
+          "unit": "4HI Bottom Motor Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][13][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_13_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][13][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_13_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][13][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_13_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":14, "sno": 14,
+          "unit": "4HI Exit Aux Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][14][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_14_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][14][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_14_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][14][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_14_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":15, "sno": 15,
+          "unit": "Exit Coiling Fce Motor Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][15][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_15_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][15][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_15_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][15][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_15_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":16,"sno": 16,
+          "unit": "Entry Pinch Roll Motor Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][16][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_16_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][16][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_16_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][16][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_16_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":17, "sno": 17,
+          "unit": "Exit Pinch Roll Motor Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][17][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_17_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][17][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_17_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][17][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_17_rem1"
+            }
+          ]
+        },
+        {
+          "line_id":18,"sno": 18,
+          "unit": "Upcoiler Motor Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][18][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_18_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][18][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_18_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][18][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_18_rem1"
+            }
+          ]
+        },
+        {
+          "line_id": 19,"sno": 19,
+          "unit": "Upcoiler Motor Blower",
+          "checkpoint": "No abnormal sound & heating",
+          "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[6][19][drop1]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_19_drop1"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[6][19][drop2]",
+              "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green",
+              "id": "6_19_drop2"
+            },
+            {
+              "type": "text",
+              "name": "items[6][19][rem1]",
+              "placeholder": "Remark",
+              "color": "yellow",
+              "id": "6_19_rem1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+ "finalRemark": {
+    "sno": "Any other Observation / Remark",
+    "textareaName": "items[2][multiline1]", "color": "purple",
+    "id": "2_multiline1" },
+  "statusCheckbox": {
+    "type": "checkbox",
+    "name": "statusCheckbox",
+    "id": "statusCheckbox"
+  },
+  "statusRemark": {
+    "type": "text",
+    "name": "statusRemark",
+    "id": "statusRemark",
+    "class": "input-field yellow",
+    "placeholder": "Reason for N.A. / Global Remark"
+  }
+}

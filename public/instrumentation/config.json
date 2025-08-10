@@ -1,0 +1,2490 @@
+{
+  "title": "Sensors & Detectors Check Sheet",
+  "header": {
+    "line1": "JINDAL STEEL & POWER LIMITED, RAIGARH",
+    "line2": "SHIFT CHECK SHEET FOR SENSORS & DETECTORS",
+    "line3": "DEPARTMENT: PLATE MILL"
+  },
+  "formFields": [
+    {
+      "label": "Select Date",
+      "type": "date",
+      "id": "date",
+      "name": "date",
+      "required": true
+    },
+    {
+      "label": "Select Shift",
+      "type": "select",
+      "id": "shift",
+      "name": "shift",
+      "required": true,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "label": "Technician Name",
+      "type": "select",
+      "id": "technician",
+      "name": "technician",
+      "required": true,
+      "options": [
+       
+      ]
+    },
+    {
+      "label": "Shift Incharge Name",
+      "type": "select",
+      "id": "incharge",
+      "name": "incharge",
+      "required": true,
+      "options": [
+       
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "header_id": 1, "title": "Sensors & Detectors Checklist",
+      "subHeaders": [
+        "S/N",
+        "UNIT/PARAMETER",
+        "Check Points / Healthy Conditions",
+        "Cleaning / Water",
+        "Air",
+        "Remark"
+      ],
+      "items": [
+        {
+          "sno": 1,
+          "unit": "Laser Machine # 1",
+          "checkpoint": "For Width Measurement On Table Section # 1 Cleaning, Water supply.",
+          "line_id": 1, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][1][drop1]",
+              "id": "1_1_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][1][drop2]",
+              "id": "1_1_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][1][rem1]",
+              "id": "1_1_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 2,
+          "unit": "Laser Machine # 2",
+          "checkpoint": "For Width Measurement On Table Section # 1 Cleaning, Water supply.",
+          "line_id": 2, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][2][drop1]",
+              "id": "1_2_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][2][drop2]",
+              "id": "1_2_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][2][rem1]",
+              "id": "1_2_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 3,
+          "unit": "Laser Machine",
+          "checkpoint": "For Length Measurement On Table Section # 1 Cleaning, Water supply.",
+          "line_id": 3, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][3][drop1]",
+              "id": "1_3_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][3][drop2]",
+              "id": "1_3_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][3][rem1]",
+              "id": "1_3_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 4,
+          "unit": "Laser Machine",
+          "checkpoint": "For Centring The Right Slab On Table Section # 4 Cleaning, Water supply.",
+          "line_id": 4, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][4][drop1]",
+              "id": "1_4_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][4][drop2]",
+              "id": "1_4_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][4][rem1]",
+              "id": "1_4_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 5,
+          "unit": "Laser Machine",
+          "checkpoint": "For Centring The Left Slab On Table Section # 5 Cleaning, Water supply.",
+          "line_id": 5, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][5][drop1]",
+              "id": "1_5_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][5][drop2]",
+              "id": "1_5_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][5][rem1]",
+              "id": "1_5_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 11,
+          "unit": "Re Heating charging Side Camera",
+          "checkpoint": "Air & water supply",
+          "line_id": 11, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][11][drop1]",
+              "id": "1_11_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][11][drop2]",
+              "id": "1_11_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][11][rem1]",
+              "id": "1_11_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 12,
+          "unit": "Re Heating Discharging Camera LHS",
+          "checkpoint": "Air & water supply",
+          "line_id": 12, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][12][drop1]",
+              "id": "1_12_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][12][drop2]",
+              "id": "1_12_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][12][rem1]",
+              "id": "1_12_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 13,
+          "unit": "Re Heating Discharging Camera RHS",
+          "checkpoint": "Air & water supply",
+          "line_id": 13, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][13][drop1]",
+              "id": "1_13_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][13][drop2]",
+              "id": "1_13_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][13][rem1]",
+              "id": "1_13_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 14,
+          "unit": "Laser to detect slab inside the furnace - 1",
+          "checkpoint": "Air & water supply",
+          "line_id": 14, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][14][drop1]",
+              "id": "1_14_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][14][drop2]",
+              "id": "1_14_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][14][rem1]",
+              "id": "1_14_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 15,
+          "unit": "Laser to detect slab inside the furnace - 2",
+          "checkpoint": "Air & water supply",
+          "line_id": 15, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][15][drop1]",
+              "id": "1_15_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][15][drop2]",
+              "id": "1_15_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][15][rem1]",
+              "id": "1_15_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 21,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "2Hi Mill Descaler Air & water supply",
+          "line_id": 21, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][21][drop1]",
+              "id": "1_21_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][21][drop2]",
+              "id": "1_21_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][21][rem1]",
+              "id": "1_21_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 22,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Roughing Mill Entry Side Guide Air & water supply",
+          "line_id": 22, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][22][drop1]",
+              "id": "1_22_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][22][drop2]",
+              "id": "1_22_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][22][rem1]",
+              "id": "1_22_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 23,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Roughing Mill Entry Cruciforoughing Mill Air & water supply",
+          "line_id": 23, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][23][drop1]",
+              "id": "1_23_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][23][drop2]",
+              "id": "1_23_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][23][rem1]",
+              "id": "1_23_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 24,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Roughing Mill Edger Entry Air & water supply",
+          "line_id": 24, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][24][drop1]",
+              "id": "1_24_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][24][drop2]",
+              "id": "1_24_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][24][rem1]",
+              "id": "1_24_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 25,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Roughing Mill Entry Air & water supply",
+          "line_id": 25, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][25][drop1]",
+              "id": "1_25_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][25][drop2]",
+              "id": "1_25_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][25][rem1]",
+              "id": "1_25_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 26,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Roughing Mill Exit Air & water supply",
+          "line_id": 26, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][26][drop1]",
+              "id": "1_26_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][26][drop2]",
+              "id": "1_26_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][26][rem1]",
+              "id": "1_26_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 27,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Roughing Mill Exit Side Guide Operation Air & water supply",
+          "line_id": 27, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][27][drop1]",
+              "id": "1_27_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][27][drop2]",
+              "id": "1_27_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][27][rem1]",
+              "id": "1_27_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 28,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Roughing Mill 2Hi Run Out Table - 1 Air & water supply",
+          "line_id": 28, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][28][drop1]",
+              "id": "1_28_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][28][drop2]",
+              "id": "1_28_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][28][rem1]",
+              "id": "1_28_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 29,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Roughing Mill 2Hi Run Out Table - 2 Air & water supply",
+          "line_id": 29, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][29][drop1]",
+              "id": "1_29_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][29][drop2]",
+              "id": "1_29_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][29][rem1]",
+              "id": "1_29_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 30,
+          "unit": "Roughing Mill Entry Table Camera",
+          "checkpoint": "Air & water supply",
+          "line_id": 30, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][30][drop1]",
+              "id": "1_30_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][30][drop2]",
+              "id": "1_30_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][30][rem1]",
+              "id": "1_30_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 31,
+          "unit": "Roughing Mill Exit Table Camera",
+          "checkpoint": "Air & water supply",
+          "line_id": 31, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][31][drop1]",
+              "id": "1_31_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][31][drop2]",
+              "id": "1_31_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][31][rem1]",
+              "id": "1_31_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 32,
+          "unit": "Roughing Mill Entry Pyrometer",
+          "checkpoint": "Air & water supply",
+          "line_id": 32, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][32][drop1]",
+              "id": "1_32_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][32][drop2]",
+              "id": "1_32_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][32][rem1]",
+              "id": "1_32_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 33,
+          "unit": "Roughing Mill Exit Pyrometer",
+          "checkpoint": "Air & water supply",
+          "line_id": 33, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][33][drop1]",
+              "id": "1_33_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][33][drop2]",
+              "id": "1_33_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][33][rem1]",
+              "id": "1_33_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 34,
+          "unit": "Roughing Mill Run Out Table Pyrometer",
+          "checkpoint": "Air & water supply",
+          "line_id": 34, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][34][drop1]",
+              "id": "1_34_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][34][drop2]",
+              "id": "1_34_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][34][rem1]",
+              "id": "1_34_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 35,
+          "unit": "Roughing Mill RM regular approach Table Pyrometer",
+          "checkpoint": "Air & water supply",
+          "line_id": 35, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][35][drop1]",
+              "id": "1_35_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][35][drop2]",
+              "id": "1_35_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][35][rem1]",
+              "id": "1_35_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 36,
+          "unit": "Roughing Mill width gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 36, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][36][drop1]",
+              "id": "1_36_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][36][drop2]",
+              "id": "1_36_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][36][rem1]",
+              "id": "1_36_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 37,
+          "unit": "FM Entry Table HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 37, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][37][drop1]",
+              "id": "1_37_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][37][drop2]",
+              "id": "1_37_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][37][rem1]",
+              "id": "1_37_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 38,
+          "unit": "FM Entry Pinch Roll HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 38, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][38][drop1]",
+              "id": "1_38_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][38][drop2]",
+              "id": "1_38_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][38][rem1]",
+              "id": "1_38_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 39,
+          "unit": "FM Entry ROT HMD New",
+          "checkpoint": "Air & water supply",
+          "line_id": 39, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][39][drop1]",
+              "id": "1_39_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][39][drop2]",
+              "id": "1_39_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][39][rem1]",
+              "id": "1_39_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 40,
+          "unit": "FM Entry Side Guide HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 40, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][40][drop1]",
+              "id": "1_40_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][40][drop2]",
+              "id": "1_40_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][40][rem1]",
+              "id": "1_40_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 41,
+          "unit": "FM Exit Side Guide HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 41, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][41][drop1]",
+              "id": "1_41_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][41][drop2]",
+              "id": "1_41_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][41][rem1]",
+              "id": "1_41_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 42,
+          "unit": "FM Exit Pinch Roll HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 42, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][42][drop1]",
+              "id": "1_42_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][42][drop2]",
+              "id": "1_42_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][42][rem1]",
+              "id": "1_42_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 43,
+          "unit": "Laminar Entry HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 43, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][43][drop1]",
+              "id": "1_43_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][43][drop2]",
+              "id": "1_43_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][43][rem1]",
+              "id": "1_43_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 44,
+          "unit": "Laminar Exit HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 44, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][44][drop1]",
+              "id": "1_44_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][44][drop2]",
+              "id": "1_44_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][44][rem1]",
+              "id": "1_44_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 45,
+          "unit": "Upcoiler Entry CMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 45, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][45][drop1]",
+              "id": "1_45_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][45][drop2]",
+              "id": "1_45_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][45][rem1]",
+              "id": "1_45_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 46,
+          "unit": "Downcoiler Entry HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 46, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][46][drop1]",
+              "id": "1_46_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][46][drop2]",
+              "id": "1_46_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][46][rem1]",
+              "id": "1_46_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 47,
+          "unit": "Downcoiler Entry CMD & Reflector",
+          "checkpoint": "Air & water supply",
+          "line_id": 47, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][47][drop1]",
+              "id": "1_47_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][47][drop2]",
+              "id": "1_47_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][47][rem1]",
+              "id": "1_47_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 48,
+          "unit": "FM Mill Entry Camera",
+          "checkpoint": "Air & water supply",
+          "line_id": 48, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][48][drop1]",
+              "id": "1_48_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][48][drop2]",
+              "id": "1_48_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][48][rem1]",
+              "id": "1_48_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 49,
+          "unit": "FM Exit Camera",
+          "checkpoint": "Air & water supply",
+          "line_id": 49, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][49][drop1]",
+              "id": "1_49_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][49][drop2]",
+              "id": "1_49_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][49][rem1]",
+              "id": "1_49_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 50,
+          "unit": "FM Width Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 50, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][50][drop1]",
+              "id": "1_50_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][50][drop2]",
+              "id": "1_50_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][50][rem1]",
+              "id": "1_50_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 51,
+          "unit": "FM Exit Width Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 51, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][51][drop1]",
+              "id": "1_51_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][51][drop2]",
+              "id": "1_51_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][51][rem1]",
+              "id": "1_51_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 52,
+          "unit": "Downcoiler Entry Width Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 52, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][52][drop1]",
+              "id": "1_52_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][52][drop2]",
+              "id": "1_52_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][52][rem1]",
+              "id": "1_52_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 53,
+          "unit": "Downcoiler Exit Width Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 53, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][53][drop1]",
+              "id": "1_53_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][53][drop2]",
+              "id": "1_53_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][53][rem1]",
+              "id": "1_53_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 54,
+          "unit": "Downcoiler Entry Side Guide HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 54, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][54][drop1]",
+              "id": "1_54_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][54][drop2]",
+              "id": "1_54_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][54][rem1]",
+              "id": "1_54_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 55,
+          "unit": "Downcoiler Exit Side Guide HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 55, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][55][drop1]",
+              "id": "1_55_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][55][drop2]",
+              "id": "1_55_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][55][rem1]",
+              "id": "1_55_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 56,
+          "unit": "Finishing Mill Bottom Scale Sensor",
+          "checkpoint": "Air & water supply",
+          "line_id": 56, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][56][drop1]",
+              "id": "1_56_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][56][drop2]",
+              "id": "1_56_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][56][rem1]",
+              "id": "1_56_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 57,
+          "unit": "Run Out Table Bottom Scale Sensor",
+          "checkpoint": "Air & water supply",
+          "line_id": 57, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][57][drop1]",
+              "id": "1_57_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][57][drop2]",
+              "id": "1_57_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][57][rem1]",
+              "id": "1_57_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 58,
+          "unit": "Finishing Mill Inter Stand Side Guide HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 58, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][58][drop1]",
+              "id": "1_58_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][58][drop2]",
+              "id": "1_58_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][58][rem1]",
+              "id": "1_58_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 59,
+          "unit": "Mill Stand Width Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 59, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][59][drop1]",
+              "id": "1_59_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][59][drop2]",
+              "id": "1_59_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][59][rem1]",
+              "id": "1_59_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 60,
+          "unit": "Finishing Mill HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 60, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][60][drop1]",
+              "id": "1_60_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][60][drop2]",
+              "id": "1_60_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][60][rem1]",
+              "id": "1_60_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 61,
+          "unit": "Downcoiler Exit CMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 61, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][61][drop1]",
+              "id": "1_61_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][61][drop2]",
+              "id": "1_61_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][61][rem1]",
+              "id": "1_61_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 62,
+          "unit": "CCTV on Cooling Bed Exit Side",
+          "checkpoint": "Air & water supply",
+          "line_id": 62, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][62][drop1]",
+              "id": "1_62_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][62][drop2]",
+              "id": "1_62_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][62][rem1]",
+              "id": "1_62_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 63,
+          "unit": "Mill Entry Width Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 63, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][63][drop1]",
+              "id": "1_63_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][63][drop2]",
+              "id": "1_63_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][63][rem1]",
+              "id": "1_63_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 64,
+          "unit": "Cooling Bed Width Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 64, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][64][drop1]",
+              "id": "1_64_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][64][drop2]",
+              "id": "1_64_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][64][rem1]",
+              "id": "1_64_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 65,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Cooling Bed Entry",
+          "line_id": 65, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][65][drop1]",
+              "id": "1_65_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][65][drop2]",
+              "id": "1_65_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][65][rem1]",
+              "id": "1_65_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 66,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Cooling Bed Exit",
+          "line_id": 66, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][66][drop1]",
+              "id": "1_66_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][66][drop2]",
+              "id": "1_66_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][66][rem1]",
+              "id": "1_66_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 67,
+          "unit": "Hot Metal Detector",
+          "checkpoint": "Cooling Bed Hydraulic Side",
+          "line_id": 67, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][67][drop1]",
+              "id": "1_67_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][67][drop2]",
+              "id": "1_67_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][67][rem1]",
+              "id": "1_67_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 68,
+          "unit": "Pyrometer",
+          "checkpoint": "Cooling Bed Entry",
+          "line_id": 68, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][68][drop1]",
+              "id": "1_68_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][68][drop2]",
+              "id": "1_68_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][68][rem1]",
+              "id": "1_68_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 69,
+          "unit": "Pyrometer",
+          "checkpoint": "Cooling Bed Exit",
+          "line_id": 69, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][69][drop1]",
+              "id": "1_69_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][69][drop2]",
+              "id": "1_69_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][69][rem1]",
+              "id": "1_69_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 70,
+          "unit": "Cooling Bed TMT Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 70, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][70][drop1]",
+              "id": "1_70_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][70][drop2]",
+              "id": "1_70_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][70][rem1]",
+              "id": "1_70_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 71,
+          "unit": "Run Out Table Width Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 71, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][71][drop1]",
+              "id": "1_71_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][71][drop2]",
+              "id": "1_71_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][71][rem1]",
+              "id": "1_71_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 72,
+          "unit": "FM Exit ROT CMD & Reflector",
+          "checkpoint": "Air & water supply",
+          "line_id": 72, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][72][drop1]",
+              "id": "1_72_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][72][drop2]",
+              "id": "1_72_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][72][rem1]",
+              "id": "1_72_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 73,
+          "unit": "FM Exit ROT HMD Old",
+          "checkpoint": "Air & water supply",
+          "line_id": 73, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][73][drop1]",
+              "id": "1_73_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][73][drop2]",
+              "id": "1_73_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][73][rem1]",
+              "id": "1_73_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 74,
+          "unit": "CCTV - ROT Area",
+          "checkpoint": "Air & water supply",
+          "line_id": 74, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][74][drop1]",
+              "id": "1_74_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][74][drop2]",
+              "id": "1_74_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][74][rem1]",
+              "id": "1_74_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 75,
+          "unit": "Cooling Bed Exit HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 75, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][75][drop1]",
+              "id": "1_75_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][75][drop2]",
+              "id": "1_75_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][75][rem1]",
+              "id": "1_75_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 76,
+          "unit": "Cooling Bed Exit CMD & Reflector",
+          "checkpoint": "Air & water supply",
+          "line_id": 76, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][76][drop1]",
+              "id": "1_76_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][76][drop2]",
+              "id": "1_76_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][76][rem1]",
+              "id": "1_76_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 77,
+          "unit": "Cooling Bed Pyrometer",
+          "checkpoint": "Air & water supply",
+          "line_id": 77, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][77][drop1]",
+              "id": "1_77_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][77][drop2]",
+              "id": "1_77_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][77][rem1]",
+              "id": "1_77_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 78,
+          "unit": "Cooling Bed Camera",
+          "checkpoint": "Air & water supply",
+          "line_id": 78, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][78][drop1]",
+              "id": "1_78_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][78][drop2]",
+              "id": "1_78_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][78][rem1]",
+              "id": "1_78_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 79,
+          "unit": "Cooling Bed HMD",
+          "checkpoint": "Air & water supply",
+          "line_id": 79, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][79][drop1]",
+              "id": "1_79_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][79][drop2]",
+              "id": "1_79_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][79][rem1]",
+              "id": "1_79_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 80,
+          "unit": "Cooling Bed Width Gauge",
+          "checkpoint": "Air & water supply",
+          "line_id": 80, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][80][drop1]",
+              "id": "1_80_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][80][drop2]",
+              "id": "1_80_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][80][rem1]",
+              "id": "1_80_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 81,
+          "unit": "Cooling Bed Exit Camera",
+          "checkpoint": "Air & water supply",
+          "line_id": 81, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][81][drop1]",
+              "id": "1_81_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][81][drop2]",
+              "id": "1_81_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][81][rem1]",
+              "id": "1_81_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 82,
+          "unit": "Cooling Bed Exit HMD 2",
+          "checkpoint": "Air & water supply",
+          "line_id": 82, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][82][drop1]",
+              "id": "1_82_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][82][drop2]",
+              "id": "1_82_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][82][rem1]",
+              "id": "1_82_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "sno": 83,
+          "unit": "Cooling Bed Exit CMD & Reflector 2",
+          "checkpoint": "Air & water supply",
+          "line_id": 83, "fields": [
+            {
+              "type": "dropdown",
+              "name": "items[1][83][drop1]",
+              "id": "1_83_drop1", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "dropdown",
+              "name": "items[1][83][drop2]",
+              "id": "1_83_drop2", "options": [
+                "OK",
+                "NOT OK",
+                "NOT CHECKED"
+              ],
+              "color": "green"
+            },
+            {
+              "type": "text",
+              "name": "items[1][83][rem1]",
+              "id": "1_83_rem1", "placeholder": "Remark",
+              "color": "yellow"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalRemark": {
+    "sno": "Any other Observation / Remark",
+    "textareaName": "items[2][multiline1]", "color": "purple",
+    "id": "2_multiline1" },
+  "statusCheckbox": {
+    "type": "checkbox",
+    "name": "statusCheckbox",
+    "id": "statusCheckbox"
+  },
+  "statusRemark": {
+    "type": "text",
+    "name": "statusRemark",
+    "id": "statusRemark",
+    "class": "input-field yellow",
+    "placeholder": "Reason for N.A. / Global Remark"
+  }
+}
