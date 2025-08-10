@@ -28,7 +28,7 @@ try {
 }
 
 app.use(session({
-  secret: 'jspl-approval-secret',
+  secret: '',
   resave: false,
   saveUninitialized: false,
   cookie: {
@@ -59,8 +59,8 @@ app.use(express.static(path.join(__dirname, '../public')));
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: 'Qwerty@1234',
-  database: 'platemill',
+  password: 'password',
+  database: 'database name',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
